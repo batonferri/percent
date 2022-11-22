@@ -1,0 +1,11 @@
+{
+  "name": "percentage of number A in number B",
+  "version": "1.0.0",
+  "description": "This is an extension to calculate percentage",
+  "manifest_version": 3,
+  "author": "hovabaton",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "calculate percentage"
+  }
+}

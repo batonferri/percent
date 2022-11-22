@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+input {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+input:focus {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+button {
+  height: 40px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  color: #fff;
+}
